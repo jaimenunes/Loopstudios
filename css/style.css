@@ -21,11 +21,13 @@ body{
 .imgDesk{
     width: 100%;
     z-index: -99;
+    filter: brightness(50%);
 }
 .imgMob{
     width: 100%;
     display: none;
     z-index: -99;
+    filter: brightness(50%);
 }
 
 
@@ -44,15 +46,15 @@ body{
     position: absolute;
     margin-top: -20rem;
     border: 2px solid #fff;
-    margin-left: 15rem;
+    margin-left: 4rem;
     padding: 1rem;
-    width: 40%;
+    width: 50%;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .boxHead h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
 }
 
