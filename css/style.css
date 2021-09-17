@@ -1,0 +1,192 @@
+/* GLOBAL ======================= */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+}
+
+.desk{
+    display: block;
+}
+.mob{
+    display: none;
+}
+/* HEADER ========================= */
+.imgDesk{
+    width: 100%;
+    z-index: -99;
+}
+.imgMob{
+    width: 100%;
+    display: none;
+    z-index: -99;
+}
+
+
+.menu{
+    width: 100%;
+    position: absolute;
+    margin-top: -40%;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.boxHead{
+    position: absolute;
+    margin-top: -20rem;
+    border: 2px solid #fff;
+    margin-left: 15rem;
+    padding: 1rem;
+    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.boxHead p {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Caixa texto======================== */
+
+.containerExtern{
+    text-align: center;
+    padding: 0rem 5rem ;
+}
+
+.titleTextBox{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+.titleTextBox p{
+    margin: 0;
+}
+
+.contentTextBox{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.contentText{
+    font-size: 1.5rem;
+}
+.seeAll{
+    font-size: 1.5rem;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: black;
+    transition: color 1s, background-color 1s;
+}
+.seeAll:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+/* Gallery ======================= */
+.captionImg{
+    position: relative;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    margin-top: -7rem;
+    margin-bottom: 5rem;
+}
+.gallery{
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+.gallery:hover{
+    filter: brightness(70%);
+}
+/* FOOTER ==================================== */
+.footerContainer{
+    background-color: #000;
+    padding: 0rem 5rem ;
+}
+.copyRight{
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 41%);
+}
+
+li{
+    list-style: none;
+}
+@media (max-width: 460px) {
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: block;
+        width: 100%;
+    }
+    .imgDesk{
+        width: 100%;
+        display: none;
+    }
+    .imgMob{
+        width: 100%;
+        display: block;
+    }
+    .menu{
+        width: 100%;
+        position: absolute;
+        margin-top: -36rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .boxHead{
+        width: 70%;
+        margin-left: 3.2rem;
+    }
+    .boxHead p {
+        font-size: 1.5rem;
+    }
+    .containerExtern{
+        padding: 0rem 1rem ;
+    }
+
+    .titleTextBox{
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .contentTextBox{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .captionImg{
+        font-size: 1.3rem;
+        margin-left: 2rem;
+        margin-top: -5rem;
+        margin-bottom: 2rem;
+    }
+    .seeAll{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .centerTextSm{
+        text-align: center;
+    }
+
+    .footerContainer{
+        background-color: #000;
+        padding: 0rem 3rem ;
+    }
+}
+
