@@ -67,7 +67,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
 }
-.titleTextBox p{
+.titleTextBox h2{
     margin: 0;
 }
 
@@ -152,7 +152,7 @@ li{
         width: 70%;
         margin-left: 3.2rem;
     }
-    .boxHead p {
+    .boxHead h1 {
         font-size: 1.5rem;
     }
     .containerExtern{
